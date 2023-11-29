@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Yekan";
+  src: url("~/public/fonts/IRANYekanWebRegular.ttf");
+}
+@font-face {
+  font-family: "YekanBold";
+  src: url("~/public/fonts/IRANYekanWebBold.ttf");
+}
+
+body {
+  direction: rtl;
+}
