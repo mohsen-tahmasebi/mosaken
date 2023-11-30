@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: "Yekan";
-  src: url("~/public/fonts/IRANYekanWebRegular.ttf");
+  src: url("/fonts/IRANYekanWebRegular.ttf");
 }
 @font-face {
   font-family: "YekanBold";
-  src: url("~/public/fonts/IRANYekanWebBold.ttf");
+  src: url("/fonts/IRANYekanWebBold.ttf");
 }
 
 body {

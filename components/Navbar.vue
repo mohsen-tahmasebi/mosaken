@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-primary px-8 py-4 flex items-center gap-2 select-none">
+  <nav class="bg-primary px-8 py-4 flex items-center gap-2 select-none border-b-[1px] border-secondary/50">
     <button
       class="menu sm:hidden flex"
       :class="{ opened: opened }"
@@ -25,9 +25,9 @@
       <a href="#">کشاورزان</a>
       <a href="#">تیم مُصَکِنْ</a>
     </div>
-    <div class="mr-auto text-white gap-12 text-lg">
+    <div class="mr-auto text-white text-lg">
       <button @click="()=> $router.push('/register')" class="bg-secondary p-2 px-4 rounded-md">ثبت نام</button>
-      <button class="text-secondary p-2 px-4 rounded-md">ورود</button>
+      <button @click="()=> $router.push('/login')" class="text-secondary p-2 px-4 rounded-md">ورود</button>
     </div>
   </nav>
 </template>

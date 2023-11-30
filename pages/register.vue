@@ -1,7 +1,7 @@
 <template>
   <form
     class="max-w-lg p-4 px-8 h-3/4 sm:my-6 mx-auto sm:border border-primary/40 rounded-md flex flex-col items-start"
-    @submit.prevent="() => {}"
+    @submit.prevent="() => $router.push('/dashboard')"
   >
     <label for="name" class="w-full">
       <label for="name">نام و نام خانوادگی</label>
@@ -62,7 +62,7 @@
       ></textarea>
     </label>
 
-    <button class="w-full rounded-md bg-primary p-3 text-xl text-white border">ثبت</button>
+    <button class="w-full rounded-md bg-primary p-3 text-xl text-white border">ثبت نام</button>
   </form>
 </template>
 

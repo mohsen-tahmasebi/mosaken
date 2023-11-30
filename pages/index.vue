@@ -1,8 +1,8 @@
 <template>
   <div
-    class="bg-primary pb-24 mb-[10vh] text-green-50 flex flex-col items-center gap-5"
+    class="bg-primary pb-10 mb-[10vh] text-green-50 flex flex-col items-center gap-5"
   >
-    <div class="flex items-center flex-col md:flex-row">
+    <div class="flex items-center flex-col lg:flex-row">
       <h1 class="text-8xl sm:px-14 py-20">مُصَکِنْ</h1>
       <p class="text-2xl">
         <span
@@ -14,7 +14,7 @@
         </span>
       </p>
     </div>
-    <div class="text-secondary">
+    <div class="text-secondary my-6">
       <button
         class="p-2 text-xl px-6 rounded-md mx-2 transition-all duration-300 text-white bg-secondary border border-white shadow-md hover:scale-105"
       >
@@ -30,9 +30,9 @@
   </div>
 
   <div>
-    <div class="sec mb-[20vh] mx-[5%] flex justify-between">
-      <div class="w-1/2 mt-2">
-        <h2 class="text-3xl my-6 text-secondary/80">
+    <div class="sec mb-[16vh] lg:mx-[5%] flex flex-col-reverse lg:flex-row justify-between">
+      <div class="lg:w-1/2 mt-2 mx-6">
+        <h2 class="text-2xl md:text-3xl my-6 text-secondary/80">
           مُصَکِنْ: بازنگرشی به کشاورزی
         </h2>
         <p class="text-justify">
@@ -51,13 +51,13 @@
       </div>
       <img
         src="/images/neural.jpg"
-        class="rounded-md max-w-xl"
+        class="lg:rounded-md w-full lg:max-w-xl object-cover"
         alt="modern farming"
       />
     </div>
-    <div class="sec mb-[20vh] mx-[5%] flex justify-between">
-      <div class="w-1/2 mt-2">
-        <h2 class="text-3xl my-6 text-secondary/80">
+    <div class="sec mb-[16vh] lg:mx-[5%] flex flex-col-reverse lg:flex-row justify-between">
+      <div class="lg:w-1/2 mt-2 mx-6">
+        <h2 class="text-2xl md:text-3xl my-6 text-secondary/80">
           مُصَکِنْ: بازنگرشی به کشاورزی
         </h2>
         <p class="text-justify">
@@ -76,13 +76,13 @@
       </div>
       <img
         src="/images/neural.jpg"
-        class="rounded-md max-w-xl"
+        class="lg:rounded-md w-full lg:max-w-xl object-cover"
         alt="modern farming"
       />
     </div>
-    <div class="sec mb-[20vh] mx-[5%] flex justify-between">
-      <div class="w-1/2 mt-2">
-        <h2 class="text-3xl my-6 text-secondary/80">
+    <div class="sec mb-[16vh] lg:mx-[5%] flex flex-col-reverse lg:flex-row justify-between">
+      <div class="lg:w-1/2 mt-2 mx-6">
+        <h2 class="text-2xl md:text-3xl my-6 text-secondary/80">
           مُصَکِنْ: بازنگرشی به کشاورزی
         </h2>
         <p class="text-justify">
@@ -101,9 +101,10 @@
       </div>
       <img
         src="/images/neural.jpg"
-        class="rounded-md max-w-xl"
+        class="lg:rounded-md w-full lg:max-w-xl object-cover"
         alt="modern farming"
       />
     </div>
   </div>
 </template>
+
